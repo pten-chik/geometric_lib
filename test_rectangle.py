@@ -16,6 +16,9 @@ class RectangleTestCase(unittest.TestCase):
     def test_area_zero_both(self):
         self.assertEqual(area(0, 0), 0)
 
+    def test_area_zero_both(self):
+        self.assertEqual(area(10, 0), 0)
+
     def test_area_large_numbers(self):
         self.assertEqual(area(1000, 2000), 2_000_000)
 
